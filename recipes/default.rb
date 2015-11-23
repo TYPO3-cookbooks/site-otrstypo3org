@@ -25,3 +25,10 @@ Customizes our [OTRS cookbook](https://github.com/TYPO3-cookbooks/otrs) to be us
 
 
 include_recipe "otrs"
+
+# all this was in role[otrs]
+include_recipe "t3-apache2"
+include_recipe "postfix"
+include_recipe "database"
+include_recipe "t3-mysql::server"
+include_recipe "t3-mysql::backup"
