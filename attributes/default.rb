@@ -1,4 +1,4 @@
-default['otrs']['version'] = "5.0.3"
+default['otrs']['version'] = "5.0.4"
 default['otrs']['fqdn'] = "otrs.typo3.org"
 
 default['site-otrstypo3org']['ssl_certificate'] = "wildcard.typo3.org"
