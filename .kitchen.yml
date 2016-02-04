@@ -21,7 +21,6 @@ suites:
         ssl_certificate: wildcard.vagrant
       otrs:
         fqdn: otrs.vagrant
-        version: 5.0.3
         apache:
           ssl_cert: /etc/ssl_certs/wildcard.vagrant.crt
           ssl_key: /etc/ssl_certs/wildcard.vagrant.key
