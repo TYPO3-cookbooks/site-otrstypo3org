@@ -23,6 +23,8 @@ Customizes our [OTRS cookbook](https://github.com/TYPO3-cookbooks/otrs) to be us
 #>
 =end
 
+include_recipe "t3-base"
+
 include_recipe "ssl_certificates"
 
 ssl_certificate node['site-otrstypo3org']['ssl_certificate'] do
