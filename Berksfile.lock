@@ -104,7 +104,7 @@ GRAPH
   screen (0.7.0)
   seven_zip (2.0.2)
     windows (>= 1.2.2)
-  site-otrstypo3org (1.1.11)
+  site-otrstypo3org (1.1.12)
     otrs (~> 2.0.0)
     perl (= 4.0.0)
     postfix (= 3.7.0)
