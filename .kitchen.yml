@@ -15,14 +15,9 @@ suites:
     attributes:
       mysql:
         server_root_password: root
-      site-otrstypo3org:
-        ssl_certificate: wildcard.vagrant
       otrs:
         fqdn: otrs.vagrant
-        apache:
-          ssl_cert: /etc/ssl_certs/wildcard.vagrant.crt
-          ssl_key: /etc/ssl_certs/wildcard.vagrant.key
     driver_config:
       network:
-      - ["forwarded_port", {guest: 443, host: 8443, auto_correct: true}]
+      - ["forwarded_port", {guest: 80, host: 8080, auto_correct: true}]
       - ["private_network", {ip: "192.168.34.36"}]

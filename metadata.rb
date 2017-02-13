@@ -11,12 +11,8 @@ supports         "debian"
 depends          "t3-base",          "~> 0.2.0"
 
 depends          "otrs",             "~> 2.0.0"
-depends          "t3-apache2",       "~> 0.1.2"
 depends          "t3-mysql",         "~> 5.0.0"
-depends          "ssl_certificates", "~> 1.1.0"
 
-# depends          "apache2",    "= 1.0.8"
-# depends          "database",   "= 1.3.12"
-# depends          "mysql",      "= 1.3.0"
+depends          "apache2",          "= 3.2.2"
 depends          "perl",             "= 4.0.0"
 depends          "postfix",          "= 3.7.0"

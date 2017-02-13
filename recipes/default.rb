@@ -25,17 +25,9 @@ Customizes our [OTRS cookbook](https://github.com/TYPO3-cookbooks/otrs) to be us
 
 include_recipe "t3-base"
 
-include_recipe "ssl_certificates"
-
-ssl_certificate node['site-otrstypo3org']['ssl_certificate'] do
-  ca_bundle_combined true
-end
-
-
 include_recipe "otrs"
 
 # all this was in role[otrs]
-include_recipe "t3-apache2"
 include_recipe "postfix"
 include_recipe "database"
 include_recipe "t3-mysql::server"
