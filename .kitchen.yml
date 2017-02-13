@@ -6,9 +6,7 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: debian-7.8
-    run_list:
-    - recipe[apt::default]
+  - name: debian-8.6
 
 suites:
   - name: default
