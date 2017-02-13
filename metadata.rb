@@ -10,8 +10,7 @@ supports         "debian"
 
 depends          "t3-base",          "~> 0.2.0"
 
-depends          "otrs",             "~> 2.0.0"
-depends          "t3-mysql",         "~> 5.0.0"
+depends          "otrs",             "~> 2.1.0"
 
 depends          "apache2",          "= 3.2.2"
 depends          "perl",             "= 4.0.0"
