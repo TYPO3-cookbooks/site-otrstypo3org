@@ -4,7 +4,7 @@ maintainer_email "steffen.gebert@typo3.org"
 license          "Apache2"
 description      "Chef cookbook for OTRS in the TYPO3 project"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "1.1.13"
+version          IO.read(File.join(File.dirname(__FILE__), 'VERSION')) rescue '0.0.1'
 
 supports         "debian"
 
