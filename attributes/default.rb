@@ -1,4 +1,4 @@
-default['otrs']['version'] = '5.0.24'
+default['otrs']['version'] = '5.0.25'
 default['otrs']['fqdn'] = 'otrs.typo3.org'
 
 default['otrs']['kernel_config']['email'] = 'admin@typo3.org'
